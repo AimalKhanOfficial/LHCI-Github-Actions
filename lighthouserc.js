@@ -5,8 +5,8 @@ module.exports = {
         url: ['http://localhost:3000'],
         numberOfRuns: 1
       },
-      upload: {
-        target: 'temporary-public-storage'
-      },
+      // upload: {
+      //   target: 'temporary-public-storage'
+      // },
     },
   };
