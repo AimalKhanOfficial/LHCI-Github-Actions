@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
+//Example to change to generate a report
 function App() {
   return (
     <div className="App">
