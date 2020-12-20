@@ -1,0 +1,166 @@
+[
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.57,
+    "values": [
+      0.57
+    ],
+    "operator": ">=",
+    "passed": false,
+    "auditId": "first-contentful-paint",
+    "level": "warn",
+    "url": "http://localhost:3000/",
+    "auditTitle": "First Contentful Paint",
+    "auditDocumentationLink": "https://web.dev/first-contentful-paint/"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.89,
+    "values": [
+      0.89
+    ],
+    "operator": ">=",
+    "passed": false,
+    "auditId": "first-cpu-idle",
+    "level": "warn",
+    "url": "http://localhost:3000/",
+    "auditTitle": "First CPU Idle",
+    "auditDocumentationLink": "https://web.dev/first-cpu-idle/"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.57,
+    "values": [
+      0.57
+    ],
+    "operator": ">=",
+    "passed": false,
+    "auditId": "first-meaningful-paint",
+    "level": "warn",
+    "url": "http://localhost:3000/",
+    "auditTitle": "First Meaningful Paint",
+    "auditDocumentationLink": "https://web.dev/first-meaningful-paint/"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.59,
+    "values": [
+      0.59
+    ],
+    "operator": ">=",
+    "passed": false,
+    "auditId": "largest-contentful-paint",
+    "level": "warn",
+    "url": "http://localhost:3000/",
+    "auditTitle": "Largest Contentful Paint",
+    "auditDocumentationLink": "https://web.dev/lighthouse-largest-contentful-paint/"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 1,
+    "values": [
+      1
+    ],
+    "operator": "<=",
+    "passed": false,
+    "auditId": "legacy-javascript",
+    "level": "warn",
+    "url": "http://localhost:3000/",
+    "auditTitle": "Avoid serving legacy JavaScript to modern browsers"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.86,
+    "values": [
+      0.86
+    ],
+    "operator": ">=",
+    "passed": false,
+    "auditId": "speed-index",
+    "level": "warn",
+    "url": "http://localhost:3000/",
+    "auditTitle": "Speed Index",
+    "auditDocumentationLink": "https://web.dev/speed-index/"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 2,
+    "values": [
+      2
+    ],
+    "operator": "<=",
+    "passed": false,
+    "auditId": "unminified-javascript",
+    "level": "error",
+    "url": "http://localhost:3000/",
+    "auditTitle": "Minify JavaScript",
+    "auditDocumentationLink": "https://web.dev/unminified-javascript/"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "passed": false,
+    "auditId": "unsized-images",
+    "level": "error",
+    "url": "http://localhost:3000/",
+    "auditTitle": "Image elements do not have explicit `width` and `height`",
+    "auditDocumentationLink": "https://web.dev/optimize-cls/#images-without-dimensions"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 1,
+    "values": [
+      1
+    ],
+    "operator": "<=",
+    "passed": false,
+    "auditId": "unused-javascript",
+    "level": "error",
+    "url": "http://localhost:3000/",
+    "auditTitle": "Remove unused JavaScript",
+    "auditDocumentationLink": "https://web.dev/unused-javascript/"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 4,
+    "values": [
+      4
+    ],
+    "operator": "<=",
+    "passed": false,
+    "auditId": "uses-long-cache-ttl",
+    "level": "warn",
+    "url": "http://localhost:3000/",
+    "auditTitle": "Serve static assets with an efficient cache policy",
+    "auditDocumentationLink": "https://web.dev/uses-long-cache-ttl/"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "passed": false,
+    "auditId": "bypass",
+    "level": "error",
+    "url": "http://localhost:3000/",
+    "auditTitle": "The page does not contain a heading, skip link, or landmark region",
+    "auditDocumentationLink": "https://web.dev/bypass/"
+  }
+]
